@@ -3,12 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0ece6b03-91ed-4e7c-98bc-5a49724dcc28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/helpers/users_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers/users_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/puma.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/puma.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -23,7 +19,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.rcov" NAME="Development: sample_app Coverage Results" MODIFIED="1543979267455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
+    <SUITE FILE_PATH="coverage/sample_app@Development__sample_app.rcov" NAME="Development: sample_app Coverage Results" MODIFIED="1543980450884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="sample_app" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -45,18 +41,20 @@
         <counts>
           <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="Gemfile" value="3" />
+          <entry key="Gemfile" value="4" />
           <entry key="Guardfile" value="1" />
+          <entry key="Procfile" value="1" />
           <entry key="erb" value="22" />
           <entry key="gitignore" value="2" />
           <entry key="layout_file" value="1" />
           <entry key="md" value="1" />
-          <entry key="rb" value="48" />
+          <entry key="rb" value="51" />
           <entry key="scss" value="5" />
           <entry key="sql" value="1" />
           <entry key="yml" value="1" />
@@ -65,9 +63,9 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="RHTML" value="22" />
-          <entry key="Ruby" value="52" />
+          <entry key="Ruby" value="56" />
           <entry key="SCSS" value="5" />
           <entry key="Scratch" value="1" />
           <entry key="YAML" value="1" />
@@ -79,7 +77,7 @@
           <entry key="Guardfile" value="4" />
           <entry key="erb" value="184" />
           <entry key="gitignore" value="1" />
-          <entry key="rb" value="773" />
+          <entry key="rb" value="794" />
           <entry key="scss" value="46" />
         </counts>
       </usages-collector>
@@ -87,7 +85,7 @@
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="RHTML" value="184" />
-          <entry key="Ruby" value="796" />
+          <entry key="Ruby" value="817" />
           <entry key="SCSS" value="46" />
         </counts>
       </usages-collector>
@@ -96,55 +94,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/show.html.erb">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+            <state relative-caret-position="127">
+              <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/puma.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            <state>
+              <caret column="39" selection-start-column="39" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="162" column="8" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/puma-3.12.0/lib/puma/dsl.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+            <state relative-caret-position="182">
+              <caret line="305" column="8" selection-start-line="305" selection-start-column="8" selection-end-line="305" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -152,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.1.1/lib/action_view/helpers/form_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="177" column="5" lean-forward="true" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+            <state relative-caret-position="2655">
+              <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -171,7 +169,7 @@
         <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -180,7 +178,7 @@
         <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="420">
-              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -245,6 +243,9 @@
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/test/integration/users_signup_test.rb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/config/puma.rb" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -279,6 +280,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,78 +288,15 @@
               <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
               <item name="sample_app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="static_pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample_app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sample_app" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="integration" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="application&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/layouts/application.html.erb&#10;sign&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/integration/users_signup_test.rb&#10;show&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/show.html.erb&#10;user&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/integration/users_signup_test.rb&#10;users&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/routes.rb&#10;custom&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/assets/stylesheets/custom.scss&#10;new.html&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;new.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;new.html.erb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;users_cont&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;custom.scss&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/assets/stylesheets/custom.scss&#10;users_he&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/helpers/users_helper.rb&#10;show.html&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/show.html.erb&#10;user_cont&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;users_controller.rb &#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;application.html.erb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/layouts/application.html.erb&#10;user.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/models/user.rb&#10;user.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/models/user.rb&#10;user_test.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;gem&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/Gemfile&#10;users.yml&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/fixtures/users.yml&#10;user_test&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;users_test&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/users_controller_test.rb&#10;user_test.rb &#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;user_te&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;create&#9;null&#9;null&#10;site&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/integration/site_layout_test.rb&#10;new&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/home.html.erb&#10;applicationhel&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/helpers/application_helper.rb&#10;application_helper&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/helpers/application_helper.rb&#10;test_hel&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/test_helper.rb&#10;route&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/routes.rb&#10;static&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/static_pages_controller_test.rb&#10;routes&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/routes.rb&#10;gemfile&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/Gemfile&#10;home.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/home.html.erb&#10;appli&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/layouts/application.html.erb&#10;applicationHelper&#9;null&#9;null&#10;.gitignore&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/.gitignore&#10;guardfile&#9;null&#9;null&#10;test_helper&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/test_helper.rb&#10;static_pages&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/static_pages_controller_test.rb&#10;static_pages_&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/static_pages_controller_test.rb&#10;static_pages_cont&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/static_pages_controller.rb&#10;static_pags&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/assets/stylesheets/static_pages.scss&#10;about&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/about.html.erb&#10;help.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/help.html.erb&#10;home.html&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/home.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="sign&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/integration/users_signup_test.rb&#10;puma.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/puma.rb&#10;production.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/environments/production.rb&#10;application&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/layouts/application.html.erb&#10;show&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/show.html.erb&#10;user&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/integration/users_signup_test.rb&#10;users&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;routes.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/routes.rb&#10;custom&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/assets/stylesheets/custom.scss&#10;new.html&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;new.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;new.html.erb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;users_cont&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;custom.scss&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/assets/stylesheets/custom.scss&#10;users_he&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/helpers/users_helper.rb&#10;show.html&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/show.html.erb&#10;user_cont&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;users_controller.rb &#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/users_controller.rb&#10;application.html.erb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/layouts/application.html.erb&#10;user.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/models/user.rb&#10;user.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/models/user.rb&#10;user_test.rb&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;gem&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/Gemfile&#10;users.yml&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/fixtures/users.yml&#10;user_test&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;users_test&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/users_controller_test.rb&#10;user_test.rb &#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;user_te&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/models/user_test.rb&#10;create&#9;null&#9;null&#10;site&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/integration/site_layout_test.rb&#10;new&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/users/new.html.erb&#10;home&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/home.html.erb&#10;applicationhel&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/helpers/application_helper.rb&#10;application_helper&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/helpers/application_helper.rb&#10;test_hel&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/test_helper.rb&#10;route&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/routes.rb&#10;static&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/static_pages_controller_test.rb&#10;routes&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/config/routes.rb&#10;gemfile&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/Gemfile&#10;home.&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/home.html.erb&#10;appli&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/layouts/application.html.erb&#10;applicationHelper&#9;null&#9;null&#10;.gitignore&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/.gitignore&#10;guardfile&#9;null&#9;null&#10;test_helper&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/test_helper.rb&#10;static_pages&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/static_pages_controller_test.rb&#10;static_pages_&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/test/controllers/static_pages_controller_test.rb&#10;static_pages_cont&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/controllers/static_pages_controller.rb&#10;static_pags&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/assets/stylesheets/static_pages.scss&#10;about&#9;FILE&#9;file:///Users/johjiyamada/myOwnProject/rails/sample_app/app/views/static_pages/about.html.erb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -502,17 +441,18 @@
       <workItem from="1543471733122" duration="40000" />
       <workItem from="1543471782140" duration="6689000" />
       <workItem from="1543484281934" duration="8455000" />
+      <workItem from="1543979964278" duration="417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38797000" />
+    <option name="totallyTimeSpent" value="39214000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="951" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -525,7 +465,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.32983682" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.32983682" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32983682" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -551,28 +491,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/static_pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/example_user.rb" />
-    <entry file="file://$APPLICATION_HOME_DIR$/rubystubs25/basic_object.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3465">
-          <caret line="231" column="8" selection-start-line="231" selection-start-column="8" selection-end-line="231" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/guard-2.13.0/lib/guard/guardfile.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Guardfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -728,13 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/models/user_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -812,31 +723,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="162" column="8" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -847,17 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.1.1/lib/action_view/helpers/form_helper.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="177" column="5" lean-forward="true" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/integration/site_layout_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="2430">
+          <caret line="162" column="8" lean-forward="true" selection-start-line="162" selection-start-column="8" selection-end-line="162" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -868,17 +751,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/actionview-5.2.1.1/lib/action_view/helpers/form_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="5" selection-start-line="177" selection-start-column="5" selection-end-line="177" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/integration/site_layout_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/shared/_error_messages.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/integration/users_signup_test.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="49" column="2" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/puma-3.12.0/lib/puma/dsl.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="305" column="8" selection-start-line="305" selection-start-column="8" selection-end-line="305" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/puma.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" selection-start-column="39" selection-end-column="39" />
         </state>
       </provider>
     </entry>
