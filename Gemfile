@@ -12,6 +12,11 @@ gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
+#
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
+# Use jquery-UI as the JavaScript library
+gem 'jquery-ui-rails'
 
 gem 'bootstrap-sass'
 
